@@ -1,0 +1,34 @@
+package com.example.android.passkeycaseinventory.data;
+
+/**
+ * Created by Justin on 5/7/17.
+ */
+
+import android.net.Uri;
+import android.provider.BaseColumns;
+
+public final class PasskeyContract {
+
+    public static final String CONTENT_AUTHORITY = "com.example.android.passkeycaseinventory";
+    public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
+    public static final String PATH_STOCK = "stock";
+
+    // Make sure this class can't be instantiated
+    private PasskeyContract() {}
+
+    /**
+     * Stock database table
+     */
+    public static final class StockEntry implements BaseColumns {
+        public static final Uri CONTENT_URI = Uri.withAppendedPath(BASE_CONTENT_URI, PATH_STOCK);
+
+        // Database related constants
+        public final static String TABLE_NAME = "stock";
+        public final static String _ID = BaseColumns._ID;
+        public final static String COLUMN_SUPPLIER = "supplier";
+        public final static String COLUMN_NAME = "name";
+        public final static String COLUMN_QTY = "qty";
+        public final static String COLUMN_PICTURE = "picture";
+        public final static String COLUMN_PRICE = "price";
+    }
+}

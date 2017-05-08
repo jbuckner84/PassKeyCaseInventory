@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PassKeyCaseInventory</string>
+    <string name="dollar">$</string>
+    <string name="new_stock">New Stock</string>
+    <string name="edit_stock">Edit stock</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="new_stock_saved">New stock saved successfully</string>
+    <string name="error_saving_stock">Error saving new stock</string>
+    <string name="stock_updated">Stock updated successfully</string>
+    <string name="error_updating_stock">Error updating stock</string>
+    <string name="deleting_stock_successful">Deleting stock was successful</string>
+    <string name="unable_to_delete_stock">Unable to delete stock</string>
+    <string name="cursor_loading_finished">Cursor loading finished</string>
+    <string name="could_not_load_image">Could not load image</string>
+    <string name="failed_to_insert_row">"Failed to insert row for "</string>
+    <string name="successfully_inserted_row_for">"Successfully inserted row for "</string>
+    <string name="failed_to_update">"Failed to update "</string>
+    <string name="position_colon">Position:</string>
+    <string name="item_has_been_sold">" item has been sold"</string>
+    <string name="delete_stock">Delete stock</string>
+    <string name="do_you_really_want_to_delete">Do you really want to delete?</string>
+    <string name="take_picture">Take picture</string>
+    <string name="price">Price</string>
+    <string name="order_more">Order more</string>
+    <string name="order_plus">Order +</string>
+    <string name="sale_minus">Sale -</string>
+    <string name="qty">Qty</string>
+    <string name="stock_information">Stock information</string>
+    <string name="supplier">Supplier</string>
+    <string name="case_name">Phone Case Type</string>
+    <string name="product_details">Product details</string>
+    <string name="out_of_inventory">PassKey is Currently Out of Inventory</string>
+    <string name="adding_new_stock">Press the Button Below to Add Stock</string>
+</resources>
